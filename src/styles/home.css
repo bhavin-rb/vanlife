@@ -1,0 +1,136 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    width: 548.151px;
+    height: 573.067px;
+    background: #FFF7ED;
+    /* color: black; */
+    
+}
+
+.nav-home {
+    width: 548.15px;
+    height: 111.62px;
+    
+    display: inline-flex;
+    /* padding: 36.001px 25.819px 34.623px 26px; */
+    justify-content: center;
+    align-items: center;
+    gap: 235.21px;
+    background: #FFF7ED;
+    color: #000;
+    font-family: Inter;
+    font-size: 25.353px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 40.271px;
+    
+}
+
+.nav-home a {
+    /* text-decoration: inherit; */
+    color: #000;
+}
+.nav-spacer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    width: 116.607px;
+    height: 22.923px;
+    text-align: right;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22.923px;
+   
+}
+
+.nav-spacer a {
+    text-decoration: inherit;
+    color:#4D4D4D;
+}
+.home-image {
+    /* display: flex; */
+    width: 548.151px;
+    height: 386.7px;
+    background-image: url(../images/hero_home.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+
+}
+
+.home-text {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* align vertically center */
+    margin-top: 50px; 
+    /* align horizontally center */
+    margin-left: auto;
+    margin-right: auto;
+    gap: 10px;
+    width: 494.333px;
+    height: 256.135px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: left;
+}
+
+.home-text h2 {
+    /* color: #FFF; */
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 42px;
+    margin-bottom: 0;
+    /* text-align: left; */
+    
+}
+
+.home-text p {
+    margin-bottom: 32px;
+}
+
+.home-text button {
+    width: 494.333px;
+    height: 49.832px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FF8C38;
+    color:#FFF;
+    font-size: 15.946px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.662px;
+    
+
+}
+
+
+footer {
+    display: flex;
+    width: 548.15px;
+    height: 74.748px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background: #252525;
+    color: #AAA;
+    text-align: center;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22.923px;
+}
